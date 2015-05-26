@@ -32,11 +32,11 @@ function minimapper(s, opts) {
     opts.tab = '    ';
 
   // loop each line
+  s = s.replace(/\t/g, opts.tab);
   var lines = s.split('\n');
   var map = [];
   for (var i = 0; i < lines.length; i++) {
     var line = lines[i];
-    line = line.replace(/\t/g, opts.tab);
     var rowindex = Math.floor(i / 4);
     var row = i % 4;
     map[rowindex] = map[rowindex] || [];
