@@ -1,0 +1,30 @@
+{
+  "name": "mini-mapper",
+  "version": "0.0.0",
+  "description": "Create a minimap like the sublime text editor for given text input using braille characters",
+  "main": "mini-mapper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "mini-mapper": "./bin/mini-mapper.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bahamas10/node-mini-mapper.git"
+  },
+  "keywords": [
+    "minimap",
+    "mini",
+    "sublime",
+    "braille"
+  ],
+  "author": "Dave Eddy <dave@daveeddy.com> (http://www.daveeddy.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bahamas10/node-mini-mapper/issues"
+  },
+  "homepage": "https://github.com/bahamas10/node-mini-mapper",
+  "dependencies": {
+  }
+}
