@@ -1,6 +1,6 @@
 {
   "name": "mini-mapper",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Create a minimap like the sublime text editor for given text input using braille characters",
   "main": "mini-mapper.js",
   "scripts": {
