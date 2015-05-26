@@ -17,7 +17,7 @@
  * License: MIT
   */
 
-var BRAILLE_OFFSET = 0x2800
+var BRAILLE_OFFSET = 0x2800;
 var PIXEL_MAP = [
   [0x01, 0x08],
   [0x02, 0x10],
@@ -25,8 +25,8 @@ var PIXEL_MAP = [
   [0x40, 0x80],
 ];
 
-module.exports = minimap;
-function minimap(s, opts) {
+module.exports = minimapper;
+function minimapper(s, opts) {
   opts = opts || {};
   if (opts.tab === undefined)
     opts.tab = '    ';

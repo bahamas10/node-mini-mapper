@@ -2,8 +2,8 @@
 
 var fs = require('fs');
 
-var minimap = require('../');
+var minimapper = require('../');
 
 var file = process.argv[2] || '/dev/stdin';
 
-process.stdout.write(minimap(fs.readFileSync(file, 'utf8')));
+process.stdout.write(minimapper(fs.readFileSync(file, 'utf8')));
